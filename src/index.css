@@ -1,0 +1,48 @@
+:root {
+  --espresso: #1f1712;
+  --espresso-2: #2b201a;
+  --espresso-3: #3d2e23;
+  --crema: #f3e6cf;
+  --latte: #baa08a;
+  --caramel: #e2903f;
+  --caramel-dark: #b96f27;
+  --paper: #f6efe0;
+  --ink: #2c2015;
+  --ink-soft: #6b5a45;
+
+  --sans: 'Noto Sans KR', system-ui, 'Malgun Gothic', sans-serif;
+  --mono: 'Nanum Gothic Coding', ui-monospace, 'Consolas', monospace;
+
+  color-scheme: dark;
+  font: 17px/1.6 var(--sans);
+  color: var(--latte);
+  background: var(--espresso);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100svh;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+button {
+  font: inherit;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
